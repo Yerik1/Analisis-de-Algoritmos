@@ -1,0 +1,3 @@
+/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/Analisis_de_Algoritmos.dir
+/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,5 @@
+# ninja log v6
+0	9	1726430215438705795	CMakeFiles/Analisis_de_Algoritmos.dir/Algorithms.cpp.o	921474f2e0b9afcc
+0	11	1726430215438705795	CMakeFiles/Analisis_de_Algoritmos.dir/BTNode.cpp.o	662c4c2cf5fb5f32
+0	9	1726430215438705795	CMakeFiles/Analisis_de_Algoritmos.dir/BinaryTree.cpp.o	6daeecb07a5c1c
+0	13	1726430306858883454	build.ninja	68d90a9f7f44958b
