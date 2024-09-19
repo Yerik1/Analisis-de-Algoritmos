@@ -5,20 +5,14 @@
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 
-#include "LLNode.h"
-class ListaEnlazada {
-private:
-    LLNode* cabeza;
-    int index;
+#include <vector>
 
+class LinkedList {
 public:
-    ListaEnlazada() : cabeza(nullptr), index(0) {}
-    ~ListaEnlazada();
-    int getPos(int position);
-    void setPos(int position, int value);
-    void append(int value);
-    void deleteNode(int posicion);
-
+    // Búsqueda en un array ordenado
+    int search(const std::vector<int>& array, int number);
 };
+
+
 #include "LinkedList.cpp"
 #endif //LINKEDLIST_H
