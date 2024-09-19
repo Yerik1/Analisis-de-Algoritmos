@@ -17,12 +17,12 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ExtraclaseII_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"id" : "Tarea2_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "ExtraclaseII_autogen::@6890427a1f51a3e7e1df",
+	"id" : "Tarea2_autogen::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
-	"name" : "ExtraclaseII_autogen",
+	"name" : "Tarea2_autogen",
 	"paths" : 
 	{
 		"build" : ".",
@@ -51,19 +51,19 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/ExtraclaseII_autogen",
+			"path" : "cmake-build-debug/CMakeFiles/Tarea2_autogen",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/ExtraclaseII_autogen.rule",
+			"path" : "cmake-build-debug/CMakeFiles/Tarea2_autogen.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/ExtraclaseII_autogen/timestamp.rule",
+			"path" : "cmake-build-debug/Tarea2_autogen/timestamp.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -2,7 +2,6 @@
 // Created by yerik on 9/18/24.
 //
 
-// You may need to build the project (run Qt uic code generator) to get "ui_ventana.h" resolved
 
 #include "ventana.h"
 
@@ -38,17 +37,15 @@ void MainWindow::clearLayout(QLayout *layout)
 {
     QLayoutItem *item;
     while ((item = layout->takeAt(0)) != nullptr) {
-        delete item->widget(); // Elimina el widget (en este caso, el QChartView)
-        delete item;           // Elimina el QLayoutItem
+        delete item->widget();
+        delete item;
     }
 }
 void MainWindow::createChart(const QString &algName) {
-    // Limpiar el layout antes de agregar un nuevo gráfico
     clearLayout(ui->verticalLayout);
 
     string alg = algName.toStdString();
 
-    // Crear series para los datos
     QtCharts::QLineSeries *seriesBest = new QtCharts::QLineSeries();
     QtCharts::QLineSeries *seriesAverage = new QtCharts::QLineSeries();
     QtCharts::QLineSeries *seriesWorst = new QtCharts::QLineSeries();
@@ -65,7 +62,6 @@ void MainWindow::createChart(const QString &algName) {
     int N4 = 4000;
     int N5 = 5000;
 
-    // Inicialización de vectores para tamaños N1 a N5
     vector<int> best_case1(N1), worst_case1(N1), avg_case1(N1);
     vector<int> best_case2(N2), worst_case2(N2), avg_case2(N2);
     vector<int> best_case3(N3), worst_case3(N3), avg_case3(N3);
@@ -191,23 +187,23 @@ void MainWindow::createChart(const QString &algName) {
         seriesTheoretical->append(N5, C*log(N5));
     }
 
-    // Crear el gráfico y usar el nombre del algoritmo en el título
+
     QtCharts::QChart *chart = new QtCharts::QChart();
     chart->addSeries(seriesBest);
     chart->addSeries(seriesAverage);
     chart->addSeries(seriesWorst);
     chart->addSeries(seriesTheoretical);
 
-    // Configurar el título del gráfico utilizando algName
+
     chart->setTitle("Duracion de " + algName);
     chart->createDefaultAxes();
     chart->legend()->show();
 
-    // Habilitar la leyenda para mostrar el nombre de las series
+
     chart->legend()->setVisible(true);
     chart->legend()->setAlignment(Qt::AlignBottom);
 
-    // Configurar los ejes
+
     QtCharts::QValueAxis *axisX = new QtCharts::QValueAxis;
     axisX->setTitleText("Tamaño N");
     axisX->setLabelFormat("%d");
@@ -228,11 +224,11 @@ void MainWindow::createChart(const QString &algName) {
     seriesWorst->attachAxis(axisY);
     seriesTheoretical->attachAxis(axisY);
 
-    // Crear el QChartView y añadirlo al layout de la ventana
+
     QtCharts::QChartView *chartView = new QtCharts::QChartView(chart);
     chartView->setRenderHint(QPainter::Antialiasing);
 
-    // Suponiendo que tienes un layout en tu UI llamado "verticalLayout"
+
     ui->verticalLayout->addWidget(chartView);
 }
 

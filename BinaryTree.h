@@ -22,10 +22,7 @@ struct Node {
 
 class BinarySearchTree {
 public:
-    // A utility function to insert a new node with
-    // the given key
     Node* insert(Node* node, int key);
-    // A utility function to do inorder tree traversal
     void inorder(Node* root);
 
     Node *search(Node *root, int key);

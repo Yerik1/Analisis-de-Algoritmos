@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "ExtraclaseII"
+			"path" : "Tarea2"
 		}
 	],
 	"backtrace" : 1,
@@ -31,19 +31,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 48,
+				"line" : 44,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 72,
+				"line" : 66,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 55,
+				"line" : 51,
 				"parent" : 0
 			},
 			{
@@ -116,7 +116,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/include"
+					"path" : "/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/Tarea2_autogen/include"
 				},
 				{
 					"backtrace" : 3,
@@ -173,14 +173,14 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ExtraclaseII_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"id" : "Tarea2_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
-			"id" : "ExtraclaseII_autogen::@6890427a1f51a3e7e1df"
+			"id" : "Tarea2_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "ExtraclaseII::@6890427a1f51a3e7e1df",
+	"id" : "Tarea2::@6890427a1f51a3e7e1df",
 	"install" : 
 	{
 		"destinations" : 
@@ -230,8 +230,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "ExtraclaseII",
-	"nameOnDisk" : "ExtraclaseII",
+	"name" : "Tarea2",
+	"nameOnDisk" : "Tarea2",
 	"paths" : 
 	{
 		"build" : ".",
@@ -286,7 +286,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/ExtraclaseII_autogen/mocs_compilation.cpp",
+			"path" : "cmake-build-debug/Tarea2_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -358,19 +358,19 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/ExtraclaseII_autogen/include/ui_ventana.h",
+			"path" : "cmake-build-debug/Tarea2_autogen/include/ui_ventana.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/ExtraclaseII_autogen/timestamp",
+			"path" : "cmake-build-debug/Tarea2_autogen/timestamp",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/ExtraclaseII_autogen/timestamp.rule",
+			"path" : "cmake-build-debug/Tarea2_autogen/timestamp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],

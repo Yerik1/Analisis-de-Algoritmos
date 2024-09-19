@@ -1,5 +1,5 @@
-/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/EWIEGA46WW/moc_ventana.cpp: /home/yerik/Desktop/Analisis-de-Algoritmos/ventana.h \
-  /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/moc_predefs.h \
+/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/Tarea2_autogen/EWIEGA46WW/moc_ventana.cpp: /home/yerik/Desktop/Analisis-de-Algoritmos/ventana.h \
+  /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/Tarea2_autogen/moc_predefs.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

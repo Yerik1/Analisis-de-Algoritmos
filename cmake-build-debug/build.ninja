@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: ExtraclaseII
+# Project: Tarea2
 # Configurations: Debug
 # =============================================================================
 
@@ -41,86 +41,86 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target ExtraclaseII
+# Object build statements for EXECUTABLE target Tarea2
 
 
 #############################################
-# Order-only phony target for ExtraclaseII
+# Order-only phony target for Tarea2
 
-build cmake_object_order_depends_target_ExtraclaseII: phony || ExtraclaseII_autogen ExtraclaseII_autogen/mocs_compilation.cpp ExtraclaseII_autogen/timestamp ExtraclaseII_autogen_timestamp_deps
+build cmake_object_order_depends_target_Tarea2: phony || Tarea2_autogen Tarea2_autogen/mocs_compilation.cpp Tarea2_autogen/timestamp Tarea2_autogen_timestamp_deps
 
-build CMakeFiles/ExtraclaseII.dir/ExtraclaseII_autogen/mocs_compilation.cpp.o: CXX_COMPILER__ExtraclaseII_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_ExtraclaseII
+build CMakeFiles/Tarea2.dir/Tarea2_autogen/mocs_compilation.cpp.o: CXX_COMPILER__Tarea2_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/Tarea2_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_Tarea2
   DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/ExtraclaseII.dir/ExtraclaseII_autogen/mocs_compilation.cpp.o.d
+  DEP_FILE = CMakeFiles/Tarea2.dir/Tarea2_autogen/mocs_compilation.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
-  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
-  OBJECT_FILE_DIR = CMakeFiles/ExtraclaseII.dir/ExtraclaseII_autogen
+  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/Tarea2_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
+  OBJECT_DIR = CMakeFiles/Tarea2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tarea2.dir/Tarea2_autogen
 
-build CMakeFiles/ExtraclaseII.dir/main.cpp.o: CXX_COMPILER__ExtraclaseII_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/main.cpp || cmake_object_order_depends_target_ExtraclaseII
+build CMakeFiles/Tarea2.dir/main.cpp.o: CXX_COMPILER__Tarea2_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/main.cpp || cmake_object_order_depends_target_Tarea2
   DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/ExtraclaseII.dir/main.cpp.o.d
+  DEP_FILE = CMakeFiles/Tarea2.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
-  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
-  OBJECT_FILE_DIR = CMakeFiles/ExtraclaseII.dir
+  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/Tarea2_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
+  OBJECT_DIR = CMakeFiles/Tarea2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tarea2.dir
 
-build CMakeFiles/ExtraclaseII.dir/ventana.cpp.o: CXX_COMPILER__ExtraclaseII_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/ventana.cpp || cmake_object_order_depends_target_ExtraclaseII
+build CMakeFiles/Tarea2.dir/ventana.cpp.o: CXX_COMPILER__Tarea2_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/ventana.cpp || cmake_object_order_depends_target_Tarea2
   DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/ExtraclaseII.dir/ventana.cpp.o.d
+  DEP_FILE = CMakeFiles/Tarea2.dir/ventana.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
-  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
-  OBJECT_FILE_DIR = CMakeFiles/ExtraclaseII.dir
+  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/Tarea2_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
+  OBJECT_DIR = CMakeFiles/Tarea2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tarea2.dir
 
-build CMakeFiles/ExtraclaseII.dir/mediciones.cpp.o: CXX_COMPILER__ExtraclaseII_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/mediciones.cpp || cmake_object_order_depends_target_ExtraclaseII
+build CMakeFiles/Tarea2.dir/mediciones.cpp.o: CXX_COMPILER__Tarea2_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/mediciones.cpp || cmake_object_order_depends_target_Tarea2
   DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/ExtraclaseII.dir/mediciones.cpp.o.d
+  DEP_FILE = CMakeFiles/Tarea2.dir/mediciones.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
-  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
-  OBJECT_FILE_DIR = CMakeFiles/ExtraclaseII.dir
+  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/Tarea2_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
+  OBJECT_DIR = CMakeFiles/Tarea2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tarea2.dir
 
-build CMakeFiles/ExtraclaseII.dir/Algorithms.cpp.o: CXX_COMPILER__ExtraclaseII_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/Algorithms.cpp || cmake_object_order_depends_target_ExtraclaseII
+build CMakeFiles/Tarea2.dir/Algorithms.cpp.o: CXX_COMPILER__Tarea2_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/Algorithms.cpp || cmake_object_order_depends_target_Tarea2
   DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/ExtraclaseII.dir/Algorithms.cpp.o.d
+  DEP_FILE = CMakeFiles/Tarea2.dir/Algorithms.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
-  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
-  OBJECT_FILE_DIR = CMakeFiles/ExtraclaseII.dir
+  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/Tarea2_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
+  OBJECT_DIR = CMakeFiles/Tarea2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tarea2.dir
 
-build CMakeFiles/ExtraclaseII.dir/LinkedList.cpp.o: CXX_COMPILER__ExtraclaseII_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/LinkedList.cpp || cmake_object_order_depends_target_ExtraclaseII
+build CMakeFiles/Tarea2.dir/LinkedList.cpp.o: CXX_COMPILER__Tarea2_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/LinkedList.cpp || cmake_object_order_depends_target_Tarea2
   DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/ExtraclaseII.dir/LinkedList.cpp.o.d
+  DEP_FILE = CMakeFiles/Tarea2.dir/LinkedList.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
-  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
-  OBJECT_FILE_DIR = CMakeFiles/ExtraclaseII.dir
+  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/Tarea2_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
+  OBJECT_DIR = CMakeFiles/Tarea2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tarea2.dir
 
-build CMakeFiles/ExtraclaseII.dir/BinaryTree.cpp.o: CXX_COMPILER__ExtraclaseII_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/BinaryTree.cpp || cmake_object_order_depends_target_ExtraclaseII
+build CMakeFiles/Tarea2.dir/BinaryTree.cpp.o: CXX_COMPILER__Tarea2_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/BinaryTree.cpp || cmake_object_order_depends_target_Tarea2
   DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/ExtraclaseII.dir/BinaryTree.cpp.o.d
+  DEP_FILE = CMakeFiles/Tarea2.dir/BinaryTree.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
-  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
-  OBJECT_FILE_DIR = CMakeFiles/ExtraclaseII.dir
+  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/Tarea2_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
+  OBJECT_DIR = CMakeFiles/Tarea2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tarea2.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ExtraclaseII
+# Link build statements for EXECUTABLE target Tarea2
 
 
 #############################################
-# Link the executable ExtraclaseII
+# Link the executable Tarea2
 
-build ExtraclaseII: CXX_EXECUTABLE_LINKER__ExtraclaseII_Debug CMakeFiles/ExtraclaseII.dir/ExtraclaseII_autogen/mocs_compilation.cpp.o CMakeFiles/ExtraclaseII.dir/main.cpp.o CMakeFiles/ExtraclaseII.dir/ventana.cpp.o CMakeFiles/ExtraclaseII.dir/mediciones.cpp.o CMakeFiles/ExtraclaseII.dir/Algorithms.cpp.o CMakeFiles/ExtraclaseII.dir/LinkedList.cpp.o CMakeFiles/ExtraclaseII.dir/BinaryTree.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5Charts.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 || ExtraclaseII_autogen ExtraclaseII_autogen_timestamp_deps
+build Tarea2: CXX_EXECUTABLE_LINKER__Tarea2_Debug CMakeFiles/Tarea2.dir/Tarea2_autogen/mocs_compilation.cpp.o CMakeFiles/Tarea2.dir/main.cpp.o CMakeFiles/Tarea2.dir/ventana.cpp.o CMakeFiles/Tarea2.dir/mediciones.cpp.o CMakeFiles/Tarea2.dir/Algorithms.cpp.o CMakeFiles/Tarea2.dir/LinkedList.cpp.o CMakeFiles/Tarea2.dir/BinaryTree.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5Charts.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 || Tarea2_autogen Tarea2_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libQt5Charts.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
-  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
+  OBJECT_DIR = CMakeFiles/Tarea2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = ExtraclaseII
-  TARGET_PDB = ExtraclaseII.dbg
+  TARGET_FILE = Tarea2
+  TARGET_PDB = Tarea2.dbg
 
 
 #############################################
@@ -189,32 +189,32 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 
 #############################################
-# Utility command for ExtraclaseII_autogen_timestamp_deps
+# Utility command for Tarea2_autogen_timestamp_deps
 
-build ExtraclaseII_autogen_timestamp_deps: phony
-
-
-#############################################
-# Utility command for ExtraclaseII_autogen
-
-build ExtraclaseII_autogen: phony CMakeFiles/ExtraclaseII_autogen ExtraclaseII_autogen/include/ui_ventana.h ExtraclaseII_autogen/timestamp ExtraclaseII_autogen/mocs_compilation.cpp ExtraclaseII_autogen_timestamp_deps
+build Tarea2_autogen_timestamp_deps: phony
 
 
 #############################################
-# Custom command for ExtraclaseII_autogen/timestamp
+# Utility command for Tarea2_autogen
 
-build ExtraclaseII_autogen/timestamp ExtraclaseII_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}ExtraclaseII_autogen/timestamp ${cmake_ninja_workdir}ExtraclaseII_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /usr/lib/qt5/bin/moc /usr/lib/qt5/bin/uic || ExtraclaseII_autogen_timestamp_deps
-  COMMAND = cd /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug && /snap/clion/292/bin/cmake/linux/x64/bin/cmake -E cmake_autogen /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/ExtraclaseII_autogen.dir/AutogenInfo.json Debug && /snap/clion/292/bin/cmake/linux/x64/bin/cmake -E touch /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/timestamp && /snap/clion/292/bin/cmake/linux/x64/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /home/yerik/Desktop/Analisis-de-Algoritmos /home/yerik/Desktop/Analisis-de-Algoritmos /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/deps /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/d/507c9bc24b9dcaa48f6ff6bf2d9abb95db853e783bd30e97c09764a6141fcecd.d
-  DESC = Automatic MOC and UIC for target ExtraclaseII
-  depfile = CMakeFiles/d/507c9bc24b9dcaa48f6ff6bf2d9abb95db853e783bd30e97c09764a6141fcecd.d
+build Tarea2_autogen: phony CMakeFiles/Tarea2_autogen Tarea2_autogen/include/ui_ventana.h Tarea2_autogen/timestamp Tarea2_autogen/mocs_compilation.cpp Tarea2_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for Tarea2_autogen/timestamp
+
+build Tarea2_autogen/timestamp Tarea2_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}Tarea2_autogen/timestamp ${cmake_ninja_workdir}Tarea2_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /usr/lib/qt5/bin/moc /usr/lib/qt5/bin/uic || Tarea2_autogen_timestamp_deps
+  COMMAND = cd /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug && /snap/clion/292/bin/cmake/linux/x64/bin/cmake -E cmake_autogen /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/Tarea2_autogen.dir/AutogenInfo.json Debug && /snap/clion/292/bin/cmake/linux/x64/bin/cmake -E touch /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/Tarea2_autogen/timestamp && /snap/clion/292/bin/cmake/linux/x64/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /home/yerik/Desktop/Analisis-de-Algoritmos /home/yerik/Desktop/Analisis-de-Algoritmos /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/Tarea2_autogen/deps /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/d/6168d82a6e9522c936a05629ced8d3e0ed584ab414f090fbd70681675e1d0b55.d
+  DESC = Automatic MOC and UIC for target Tarea2
+  depfile = CMakeFiles/d/6168d82a6e9522c936a05629ced8d3e0ed584ab414f090fbd70681675e1d0b55.d
   deps = gcc
   restat = 1
 
 
 #############################################
-# Phony custom command for CMakeFiles/ExtraclaseII_autogen
+# Phony custom command for CMakeFiles/Tarea2_autogen
 
-build CMakeFiles/ExtraclaseII_autogen ExtraclaseII_autogen/include/ui_ventana.h | ${cmake_ninja_workdir}CMakeFiles/ExtraclaseII_autogen ${cmake_ninja_workdir}ExtraclaseII_autogen/include/ui_ventana.h: phony ExtraclaseII_autogen/timestamp || ExtraclaseII_autogen_timestamp_deps
+build CMakeFiles/Tarea2_autogen Tarea2_autogen/include/ui_ventana.h | ${cmake_ninja_workdir}CMakeFiles/Tarea2_autogen ${cmake_ninja_workdir}Tarea2_autogen/include/ui_ventana.h: phony Tarea2_autogen/timestamp || Tarea2_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.
@@ -227,7 +227,7 @@ build CMakeFiles/ExtraclaseII_autogen ExtraclaseII_autogen/include/ui_ventana.h 
 #############################################
 # Folder: /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug
 
-build all: phony ExtraclaseII
+build all: phony Tarea2
 
 # =============================================================================
 # Built-in targets
