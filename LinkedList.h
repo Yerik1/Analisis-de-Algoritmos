@@ -14,5 +14,4 @@ public:
 };
 
 
-#include "LinkedList.cpp"
 #endif //LINKEDLIST_H

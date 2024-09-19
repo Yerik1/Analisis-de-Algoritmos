@@ -31,5 +31,5 @@ public:
     Node *search(Node *root, int key);
 };
 
-#include "BinaryTree.cpp"
+
 #endif //BINARYTREE_H

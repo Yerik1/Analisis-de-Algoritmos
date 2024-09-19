@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Analisis_de_Algoritmos
+# Project: ExtraclaseII
 # Configurations: Debug
 # =============================================================================
 
@@ -41,64 +41,86 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Analisis_de_Algoritmos
+# Object build statements for EXECUTABLE target ExtraclaseII
 
 
 #############################################
-# Order-only phony target for Analisis_de_Algoritmos
+# Order-only phony target for ExtraclaseII
 
-build cmake_object_order_depends_target_Analisis_de_Algoritmos: phony || .
+build cmake_object_order_depends_target_ExtraclaseII: phony || ExtraclaseII_autogen ExtraclaseII_autogen/mocs_compilation.cpp ExtraclaseII_autogen/timestamp ExtraclaseII_autogen_timestamp_deps
 
-build CMakeFiles/Analisis_de_Algoritmos.dir/Algorithms.cpp.o: CXX_COMPILER__Analisis_de_Algoritmos_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/Algorithms.cpp || cmake_object_order_depends_target_Analisis_de_Algoritmos
-  DEP_FILE = CMakeFiles/Analisis_de_Algoritmos.dir/Algorithms.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/.
-  OBJECT_DIR = CMakeFiles/Analisis_de_Algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/Analisis_de_Algoritmos.dir
+build CMakeFiles/ExtraclaseII.dir/ExtraclaseII_autogen/mocs_compilation.cpp.o: CXX_COMPILER__ExtraclaseII_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_ExtraclaseII
+  DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/ExtraclaseII.dir/ExtraclaseII_autogen/mocs_compilation.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
+  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
+  OBJECT_FILE_DIR = CMakeFiles/ExtraclaseII.dir/ExtraclaseII_autogen
 
-build CMakeFiles/Analisis_de_Algoritmos.dir/BinaryTree.cpp.o: CXX_COMPILER__Analisis_de_Algoritmos_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/BinaryTree.cpp || cmake_object_order_depends_target_Analisis_de_Algoritmos
-  DEP_FILE = CMakeFiles/Analisis_de_Algoritmos.dir/BinaryTree.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/.
-  OBJECT_DIR = CMakeFiles/Analisis_de_Algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/Analisis_de_Algoritmos.dir
+build CMakeFiles/ExtraclaseII.dir/main.cpp.o: CXX_COMPILER__ExtraclaseII_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/main.cpp || cmake_object_order_depends_target_ExtraclaseII
+  DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/ExtraclaseII.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
+  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
+  OBJECT_FILE_DIR = CMakeFiles/ExtraclaseII.dir
 
-build CMakeFiles/Analisis_de_Algoritmos.dir/BTNode.cpp.o: CXX_COMPILER__Analisis_de_Algoritmos_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/BTNode.cpp || cmake_object_order_depends_target_Analisis_de_Algoritmos
-  DEP_FILE = CMakeFiles/Analisis_de_Algoritmos.dir/BTNode.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/.
-  OBJECT_DIR = CMakeFiles/Analisis_de_Algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/Analisis_de_Algoritmos.dir
+build CMakeFiles/ExtraclaseII.dir/ventana.cpp.o: CXX_COMPILER__ExtraclaseII_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/ventana.cpp || cmake_object_order_depends_target_ExtraclaseII
+  DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/ExtraclaseII.dir/ventana.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
+  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
+  OBJECT_FILE_DIR = CMakeFiles/ExtraclaseII.dir
 
-build CMakeFiles/Analisis_de_Algoritmos.dir/LinkedList.cpp.o: CXX_COMPILER__Analisis_de_Algoritmos_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/LinkedList.cpp || cmake_object_order_depends_target_Analisis_de_Algoritmos
-  DEP_FILE = CMakeFiles/Analisis_de_Algoritmos.dir/LinkedList.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/.
-  OBJECT_DIR = CMakeFiles/Analisis_de_Algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/Analisis_de_Algoritmos.dir
+build CMakeFiles/ExtraclaseII.dir/mediciones.cpp.o: CXX_COMPILER__ExtraclaseII_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/mediciones.cpp || cmake_object_order_depends_target_ExtraclaseII
+  DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/ExtraclaseII.dir/mediciones.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
+  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
+  OBJECT_FILE_DIR = CMakeFiles/ExtraclaseII.dir
 
-build CMakeFiles/Analisis_de_Algoritmos.dir/LLNode.cpp.o: CXX_COMPILER__Analisis_de_Algoritmos_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/LLNode.cpp || cmake_object_order_depends_target_Analisis_de_Algoritmos
-  DEP_FILE = CMakeFiles/Analisis_de_Algoritmos.dir/LLNode.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/.
-  OBJECT_DIR = CMakeFiles/Analisis_de_Algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/Analisis_de_Algoritmos.dir
+build CMakeFiles/ExtraclaseII.dir/Algorithms.cpp.o: CXX_COMPILER__ExtraclaseII_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/Algorithms.cpp || cmake_object_order_depends_target_ExtraclaseII
+  DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/ExtraclaseII.dir/Algorithms.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
+  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
+  OBJECT_FILE_DIR = CMakeFiles/ExtraclaseII.dir
+
+build CMakeFiles/ExtraclaseII.dir/LinkedList.cpp.o: CXX_COMPILER__ExtraclaseII_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/LinkedList.cpp || cmake_object_order_depends_target_ExtraclaseII
+  DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/ExtraclaseII.dir/LinkedList.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
+  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
+  OBJECT_FILE_DIR = CMakeFiles/ExtraclaseII.dir
+
+build CMakeFiles/ExtraclaseII.dir/BinaryTree.cpp.o: CXX_COMPILER__ExtraclaseII_unscanned_Debug /home/yerik/Desktop/Analisis-de-Algoritmos/BinaryTree.cpp || cmake_object_order_depends_target_ExtraclaseII
+  DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/ExtraclaseII.dir/BinaryTree.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
+  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
+  OBJECT_FILE_DIR = CMakeFiles/ExtraclaseII.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Analisis_de_Algoritmos
+# Link build statements for EXECUTABLE target ExtraclaseII
 
 
 #############################################
-# Link the executable Analisis_de_Algoritmos
+# Link the executable ExtraclaseII
 
-build Analisis_de_Algoritmos: CXX_EXECUTABLE_LINKER__Analisis_de_Algoritmos_Debug CMakeFiles/Analisis_de_Algoritmos.dir/Algorithms.cpp.o CMakeFiles/Analisis_de_Algoritmos.dir/BinaryTree.cpp.o CMakeFiles/Analisis_de_Algoritmos.dir/BTNode.cpp.o CMakeFiles/Analisis_de_Algoritmos.dir/LinkedList.cpp.o CMakeFiles/Analisis_de_Algoritmos.dir/LLNode.cpp.o
+build ExtraclaseII: CXX_EXECUTABLE_LINKER__ExtraclaseII_Debug CMakeFiles/ExtraclaseII.dir/ExtraclaseII_autogen/mocs_compilation.cpp.o CMakeFiles/ExtraclaseII.dir/main.cpp.o CMakeFiles/ExtraclaseII.dir/ventana.cpp.o CMakeFiles/ExtraclaseII.dir/mediciones.cpp.o CMakeFiles/ExtraclaseII.dir/Algorithms.cpp.o CMakeFiles/ExtraclaseII.dir/LinkedList.cpp.o CMakeFiles/ExtraclaseII.dir/BinaryTree.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5Charts.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 || ExtraclaseII_autogen ExtraclaseII_autogen_timestamp_deps
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/Analisis_de_Algoritmos.dir
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libQt5Charts.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
+  OBJECT_DIR = CMakeFiles/ExtraclaseII.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = Analisis_de_Algoritmos
-  TARGET_PDB = Analisis_de_Algoritmos.dbg
+  TARGET_FILE = ExtraclaseII
+  TARGET_PDB = ExtraclaseII.dbg
 
 
 #############################################
@@ -123,6 +145,77 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = cd /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug && /snap/clion/292/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = cd /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug && /snap/clion/292/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = cd /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug && /snap/clion/292/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
+
+
+#############################################
+# Utility command for ExtraclaseII_autogen_timestamp_deps
+
+build ExtraclaseII_autogen_timestamp_deps: phony
+
+
+#############################################
+# Utility command for ExtraclaseII_autogen
+
+build ExtraclaseII_autogen: phony CMakeFiles/ExtraclaseII_autogen ExtraclaseII_autogen/include/ui_ventana.h ExtraclaseII_autogen/timestamp ExtraclaseII_autogen/mocs_compilation.cpp ExtraclaseII_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for ExtraclaseII_autogen/timestamp
+
+build ExtraclaseII_autogen/timestamp ExtraclaseII_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}ExtraclaseII_autogen/timestamp ${cmake_ninja_workdir}ExtraclaseII_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /usr/lib/qt5/bin/moc /usr/lib/qt5/bin/uic || ExtraclaseII_autogen_timestamp_deps
+  COMMAND = cd /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug && /snap/clion/292/bin/cmake/linux/x64/bin/cmake -E cmake_autogen /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/ExtraclaseII_autogen.dir/AutogenInfo.json Debug && /snap/clion/292/bin/cmake/linux/x64/bin/cmake -E touch /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/timestamp && /snap/clion/292/bin/cmake/linux/x64/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /home/yerik/Desktop/Analisis-de-Algoritmos /home/yerik/Desktop/Analisis-de-Algoritmos /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/ExtraclaseII_autogen/deps /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/d/507c9bc24b9dcaa48f6ff6bf2d9abb95db853e783bd30e97c09764a6141fcecd.d
+  DESC = Automatic MOC and UIC for target ExtraclaseII
+  depfile = CMakeFiles/d/507c9bc24b9dcaa48f6ff6bf2d9abb95db853e783bd30e97c09764a6141fcecd.d
+  deps = gcc
+  restat = 1
+
+
+#############################################
+# Phony custom command for CMakeFiles/ExtraclaseII_autogen
+
+build CMakeFiles/ExtraclaseII_autogen ExtraclaseII_autogen/include/ui_ventana.h | ${cmake_ninja_workdir}CMakeFiles/ExtraclaseII_autogen ${cmake_ninja_workdir}ExtraclaseII_autogen/include/ui_ventana.h: phony ExtraclaseII_autogen/timestamp || ExtraclaseII_autogen_timestamp_deps
+
 # =============================================================================
 # Target aliases.
 
@@ -134,7 +227,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug
 
-build all: phony Analisis_de_Algoritmos
+build all: phony ExtraclaseII
 
 # =============================================================================
 # Built-in targets
@@ -143,20 +236,27 @@ build all: phony Analisis_de_Algoritmos
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/yerik/Desktop/Analisis-de-Algoritmos/CMakeLists.txt /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/yerik/Desktop/Analisis-de-Algoritmos/CMakeLists.txt /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseArguments.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/yerik/Desktop/Analisis-de-Algoritmos/CMakeLists.txt /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
+build /home/yerik/Desktop/Analisis-de-Algoritmos/CMakeLists.txt /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseArguments.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean additional files.
+
+build CMakeFiles/clean.additional: CLEAN_ADDITIONAL
+  CONFIG = Debug
 
 
 #############################################
 # Clean all the built files.
 
-build clean: CLEAN
+build clean: CLEAN CMakeFiles/clean.additional
 
 
 #############################################

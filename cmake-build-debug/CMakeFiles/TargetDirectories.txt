@@ -1,3 +1,9 @@
-/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/Analisis_de_Algoritmos.dir
+/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/ExtraclaseII.dir
 /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/install.dir
+/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/install/local.dir
+/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/ExtraclaseII_autogen_timestamp_deps.dir
+/home/yerik/Desktop/Analisis-de-Algoritmos/cmake-build-debug/CMakeFiles/ExtraclaseII_autogen.dir
